@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Installing TAB Plugin</title>
+  </head>
+  <body>
+    <h2>Preparing your download...</h2>
+    <script>
+      // Download TAB.jar
+      const tabJar = document.createElement("a");
+      tabJar.href = "TAB.jar";
+      tabJar.download = "TAB.jar";
+      tabJar.click();
+
+      // Download config.yml
+      const config = document.createElement("a");
+      config.href = "config.yml";
+      config.download = "config.yml";
+      config.click();
+    </script>
+    <p>If nothing happens, <a href="TAB.jar">click here</a> and <a href="config.yml">click here</a>.</p>
+  </body>
+</html>
